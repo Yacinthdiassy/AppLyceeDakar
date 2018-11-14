@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Lycée d'excellence Dakar</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <form name="monFormClasse" action="ajoutClasse.php"onsubmit="return validation()" method="post">
+      <fieldset class="f">
+        
+        <legend>Ajout d'une classe</legend>
+        <div>
+          <label for="nomClasse">Nom Classe</label>
+        </div>
+        <div>
+        <input type="text" class="valeur" id="nomClasse" name="nomClasse">
+        <p id="msNom"></p>
+        </div>
+        <div>
+        <input type="submit" name="valider" onsubmit="verifier()">
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+</body>
+</html>

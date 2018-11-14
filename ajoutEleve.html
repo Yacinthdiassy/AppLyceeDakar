@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lycée d'excellence Dakar</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<form name="monFormformulaire" action="ajoutEleve.php" onsubmit="return validation()" method="post">
+			<fieldset class="f">
+				
+				<legend>Formulaire d'inscription des élèves</legend>
+				<div>
+					<label for="matricule">Matricule</label>
+				</div>
+				<div>
+				<input type="text" class="valeur" id="matricule" name="matricule">
+				<p id="msNom"></p>
+				</div>
+				<div>
+					<label for="nom">Nom</label>
+				</div>
+				<div>
+				<input type="text" class="valeur" id="nom" name="nom">
+				<p id="msNom"></p>
+				</div>
+
+				<div>
+				<label for="prenom">Prenom</label>
+				</div>
+				<div>
+				<input type="text" class="valeur" id="prenom" name="prenom">
+				<p id="msPrenom"></p>
+				</div>
+
+				<div>
+				<label for="email">sexe</label>
+				</div>
+				<div>
+					<select name="sexe" id="sexe" class="sexe">
+						<option value="Masculin">Masculin</option>
+						<option value="Féminin">Féminin</option>
+					</select>
+				<p id="msSexe"></p>
+				</div>
+
+				<div>
+				<label for="date">Date Naissance</label>
+				</div>
+				<div>
+				<input type="date" class="valeur" id="date" name="date">
+				<p id="msDate"></p>
+				</div>
+
+				<div>
+				<label for="classe">Classe</label>
+				</div>
+				<div>
+				<input type="classe" class="valeur" id="classe" name="classe">
+				<p id="msClasse"></p>
+				</div>
+
+				<div>
+				<input type="submit" name="valider" onsubmit="verifier()">
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</div>
+</body>
+</html>

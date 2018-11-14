@@ -1,0 +1,24 @@
+body{
+	margin: 0px;
+	padding: 0px
+	background-color: red;
+}
+.f{
+	display: flex;
+	flex-direction: column;
+}
+.monFormformulaire{
+	display: flex;
+	height: 500px;
+	align-items: center;
+}
+.container{
+	display: flex;
+	width: 50Px;
+	align-items:
+	margin:auto; 	
+}
+.monBouton{
+	height: 150px;
+	width: 150px;
+}

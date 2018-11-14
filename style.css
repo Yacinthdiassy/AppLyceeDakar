@@ -2,6 +2,7 @@ body{
 	margin: 0px;
 	padding: 0px
 	background-color: red;
+	text-align: center;
 }
 .f{
 	display: flex;
@@ -13,6 +14,7 @@ body{
 	align-items: center;
 }
 .container{
+
 	display: flex;
 	width: 50Px;
 	align-items:
@@ -21,4 +23,7 @@ body{
 .monBouton{
 	height: 150px;
 	width: 150px;
+}
+.row{
+
 }

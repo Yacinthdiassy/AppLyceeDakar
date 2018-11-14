@@ -1,8 +1,17 @@
 body{
-	margin: 0px;
-	padding: 0px
-	background-color: red;
-	text-align: center;
+	display: flex;
+	width: 100%;
+	margin: center;
+	padding: 50px;
+	position: relative;
+	background-color: gray;
+	left: 400px;
+
+	
+}
+.in{
+	display: flex;
+	flex-direction: row;
 }
 .f{
 	display: flex;
@@ -11,12 +20,12 @@ body{
 .monFormformulaire{
 	display: flex;
 	height: 500px;
-	align-items: center;
+	
 }
 .container{
 
 	display: flex;
-	width: 50Px;
+	width: 100Px;
 	align-items:
 	margin:auto; 	
 }
@@ -26,4 +35,7 @@ body{
 }
 .row{
 
+}
+.valeur{
+	width: 400px;
 }
